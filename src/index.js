@@ -2,10 +2,9 @@ import camelCase from 'lodash.camelcase'
 
 function getTransitionDuration(element, withDelay) {
 
-    const prefixes = ' webkit moz ms o khtml'.split(' '),
-        result = 0
+    const prefixes = ' webkit moz ms o khtml'.split(' ')
 
-    let duration, delay, prefix
+    let duration, delay, prefix, result = 0
 
     for (let i = 0; i < prefixes.length; i++) {
         prefix = prefixes[i] + '-'
