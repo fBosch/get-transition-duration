@@ -1,0 +1,32 @@
+{
+    "name": "get-transition-duration",
+    "description": "get the transition duration of an element ",
+    "version": "1.0.0",
+    "main": "lib/index.js",
+    "author": "fbosch",
+    "repository": "fbosch/get-transition-duration",
+    "license": "MIT",
+    "scripts": {
+        "compile": "babel src --out-dir lib",
+        "coveralls": "cat ./coverage/lcov.info | coveralls",
+        "prepublish": "npm run compile",
+        "test": "babel-node ./node_modules/.bin/isparta cover _mocha"
+    },
+    "devDependencies": {
+        "babel-cli": "*",
+        "babel-preset-es2015-node4": "*",
+        "chai": "*",
+        "coveralls": "*",
+        "isparta": "*",
+        "jsdom": "^9.12.0",
+        "jsdom-global": "^2.1.1",
+        "mocha": "^3.2.0",
+        "mocha-jsdom": "^1.1.0",
+        "mock-browser": "^0.92.14",
+        "sinon": "*"
+    },
+    "dependencies": {
+        "computed-style": "^0.3.0",
+        "lodash.camelcase": "^4.3.0"
+    }
+}
