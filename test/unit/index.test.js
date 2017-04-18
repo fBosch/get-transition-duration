@@ -1,4 +1,4 @@
-import { assert } from 'chai'
+// import { assert } from 'chai'
 // import { mocks } from 'mock-browser'
 // import getTransitionDuration from '../../src/index'
 // import jsdom from 'mocha-jsdom'
@@ -7,6 +7,7 @@ import { assert } from 'chai'
 // describe('getTransitionDuration', () => {
 //     jsdom()
 //     let div
+
 //     const expectedTransitionDuration = 200,
 //           expectedDelay = 50,
 //           expectedTransitionDurationWithDelay = expectedTransitionDuration + expectedDelay
